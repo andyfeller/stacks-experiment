@@ -1,3 +1,4 @@
+version: 0.0.2
 name: first-experiment
 description: This is a basic experiment leveraging the newly staff shipped GitHub Stacks feature.
 inputs:
@@ -19,7 +20,7 @@ inputs:
       - Premium
 
 configs:
-  - branches:
+  branches:
     - name: main
       parameters:
         allow-deletions: false
