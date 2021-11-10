@@ -1,0 +1,12 @@
+name: Stack Init
+
+on:
+  workflow_dispatch:
+
+jobs:
+  stack-init:
+    runs-on: ubuntu-latest
+    steps:
+      - name: stub
+        run: |
+          echo "I really didn't want to be forced to create a workflow for a repo to be recognized as a stack but here goes nothing"

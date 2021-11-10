@@ -36,3 +36,5 @@ configs:
           dismiss-stale-reviews: true
           require-code-owner-reviews: true
           required-approving-review-count: ${{ inputs.required_approving_review_count }}
+init:
+  uses: "stack-init.yml"
