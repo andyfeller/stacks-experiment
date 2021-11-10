@@ -12,7 +12,7 @@ inputs:
     description: Number of reviewers required to approve pull requests
     required: true
     default: 2
-    valid-values:
+    validvalues:
       - 1
       - 2
       - 3
