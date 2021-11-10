@@ -22,7 +22,7 @@ inputs:
 
   - name: additional_self_hosted_runner_group
     description: Name of additional self-hosted runner group to requested for GitHub Actions workflows
-    valid-values:
+    validvalues:
       - Premium
 
 configs:
